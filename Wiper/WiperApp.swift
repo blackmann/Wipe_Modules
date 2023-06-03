@@ -15,6 +15,6 @@ struct WiperApp: App {
         WindowGroup {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
-        }
+        }.defaultSize(width: 600, height: 400)
     }
 }

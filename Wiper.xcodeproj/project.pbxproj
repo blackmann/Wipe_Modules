@@ -16,6 +16,9 @@
 		499051CB2A2ADAB7006EA6FD /* WiperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499051CA2A2ADAB7006EA6FD /* WiperTests.swift */; };
 		499051D52A2ADAB7006EA6FD /* WiperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499051D42A2ADAB7006EA6FD /* WiperUITests.swift */; };
 		499051D72A2ADAB7006EA6FD /* WiperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499051D62A2ADAB7006EA6FD /* WiperUITestsLaunchTests.swift */; };
+		499051E42A2ADC97006EA6FD /* DirectoryEntries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499051E32A2ADC97006EA6FD /* DirectoryEntries.swift */; };
+		499051E62A2B7795006EA6FD /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499051E52A2B7795006EA6FD /* Date+Extensions.swift */; };
+		499051E82A2B8B91006EA6FD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499051E72A2B8B91006EA6FD /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		499051B02A2ADAB6006EA6FD /* Wiper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wiper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		499051B02A2ADAB6006EA6FD /* Wipe Modules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wipe Modules.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		499051B32A2ADAB6006EA6FD /* WiperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiperApp.swift; sourceTree = "<group>"; };
 		499051B52A2ADAB6006EA6FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		499051B72A2ADAB7006EA6FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		499051D02A2ADAB7006EA6FD /* WiperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		499051D42A2ADAB7006EA6FD /* WiperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiperUITests.swift; sourceTree = "<group>"; };
 		499051D62A2ADAB7006EA6FD /* WiperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		499051E32A2ADC97006EA6FD /* DirectoryEntries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryEntries.swift; sourceTree = "<group>"; };
+		499051E52A2B7795006EA6FD /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		499051E72A2B8B91006EA6FD /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +95,7 @@
 		499051B12A2ADAB6006EA6FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				499051B02A2ADAB6006EA6FD /* Wiper.app */,
+				499051B02A2ADAB6006EA6FD /* Wipe Modules.app */,
 				499051C62A2ADAB7006EA6FD /* WiperTests.xctest */,
 				499051D02A2ADAB7006EA6FD /* WiperUITests.xctest */,
 			);
@@ -99,6 +105,7 @@
 		499051B22A2ADAB6006EA6FD /* Wiper */ = {
 			isa = PBXGroup;
 			children = (
+				499051E52A2B7795006EA6FD /* Date+Extensions.swift */,
 				499051B32A2ADAB6006EA6FD /* WiperApp.swift */,
 				499051B52A2ADAB6006EA6FD /* ContentView.swift */,
 				499051B72A2ADAB7006EA6FD /* Assets.xcassets */,
@@ -106,6 +113,8 @@
 				499051C12A2ADAB7006EA6FD /* Wiper.entitlements */,
 				499051BE2A2ADAB7006EA6FD /* Wiper.xcdatamodeld */,
 				499051B92A2ADAB7006EA6FD /* Preview Content */,
+				499051E32A2ADC97006EA6FD /* DirectoryEntries.swift */,
+				499051E72A2B8B91006EA6FD /* Utils.swift */,
 			);
 			path = Wiper;
 			sourceTree = "<group>";
@@ -138,9 +147,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		499051AF2A2ADAB6006EA6FD /* Wiper */ = {
+		499051AF2A2ADAB6006EA6FD /* Wipe Modules */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 499051DA2A2ADAB7006EA6FD /* Build configuration list for PBXNativeTarget "Wiper" */;
+			buildConfigurationList = 499051DA2A2ADAB7006EA6FD /* Build configuration list for PBXNativeTarget "Wipe Modules" */;
 			buildPhases = (
 				499051AC2A2ADAB6006EA6FD /* Sources */,
 				499051AD2A2ADAB6006EA6FD /* Frameworks */,
@@ -150,9 +159,9 @@
 			);
 			dependencies = (
 			);
-			name = Wiper;
+			name = "Wipe Modules";
 			productName = Wiper;
-			productReference = 499051B02A2ADAB6006EA6FD /* Wiper.app */;
+			productReference = 499051B02A2ADAB6006EA6FD /* Wipe Modules.app */;
 			productType = "com.apple.product-type.application";
 		};
 		499051C52A2ADAB7006EA6FD /* WiperTests */ = {
@@ -227,7 +236,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				499051AF2A2ADAB6006EA6FD /* Wiper */,
+				499051AF2A2ADAB6006EA6FD /* Wipe Modules */,
 				499051C52A2ADAB7006EA6FD /* WiperTests */,
 				499051CF2A2ADAB7006EA6FD /* WiperUITests */,
 			);
@@ -266,9 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				499051BD2A2ADAB7006EA6FD /* Persistence.swift in Sources */,
+				499051E42A2ADC97006EA6FD /* DirectoryEntries.swift in Sources */,
 				499051C02A2ADAB7006EA6FD /* Wiper.xcdatamodeld in Sources */,
+				499051E82A2B8B91006EA6FD /* Utils.swift in Sources */,
 				499051B62A2ADAB6006EA6FD /* ContentView.swift in Sources */,
 				499051B42A2ADAB6006EA6FD /* WiperApp.swift in Sources */,
+				499051E62A2B7795006EA6FD /* Date+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,12 +306,12 @@
 /* Begin PBXTargetDependency section */
 		499051C82A2ADAB7006EA6FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 499051AF2A2ADAB6006EA6FD /* Wiper */;
+			target = 499051AF2A2ADAB6006EA6FD /* Wipe Modules */;
 			targetProxy = 499051C72A2ADAB7006EA6FD /* PBXContainerItemProxy */;
 		};
 		499051D22A2ADAB7006EA6FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 499051AF2A2ADAB6006EA6FD /* Wiper */;
+			target = 499051AF2A2ADAB6006EA6FD /* Wipe Modules */;
 			targetProxy = 499051D12A2ADAB7006EA6FD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -355,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -409,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -556,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		499051DA2A2ADAB7006EA6FD /* Build configuration list for PBXNativeTarget "Wiper" */ = {
+		499051DA2A2ADAB7006EA6FD /* Build configuration list for PBXNativeTarget "Wipe Modules" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				499051DB2A2ADAB7006EA6FD /* Debug */,
