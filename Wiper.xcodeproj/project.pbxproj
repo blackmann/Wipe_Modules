@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		499051B42A2ADAB6006EA6FD /* WiperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499051B32A2ADAB6006EA6FD /* WiperApp.swift */; };
+		499051B62A2ADAB6006EA6FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499051B52A2ADAB6006EA6FD /* ContentView.swift */; };
+		499051B82A2ADAB7006EA6FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499051B72A2ADAB7006EA6FD /* Assets.xcassets */; };
+		499051BB2A2ADAB7006EA6FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499051BA2A2ADAB7006EA6FD /* Preview Assets.xcassets */; };
+		499051BD2A2ADAB7006EA6FD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499051BC2A2ADAB7006EA6FD /* Persistence.swift */; };
+		499051C02A2ADAB7006EA6FD /* Wiper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 499051BE2A2ADAB7006EA6FD /* Wiper.xcdatamodeld */; };
+		499051CB2A2ADAB7006EA6FD /* WiperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499051CA2A2ADAB7006EA6FD /* WiperTests.swift */; };
+		499051D52A2ADAB7006EA6FD /* WiperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499051D42A2ADAB7006EA6FD /* WiperUITests.swift */; };
+		499051D72A2ADAB7006EA6FD /* WiperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499051D62A2ADAB7006EA6FD /* WiperUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		499051C72A2ADAB7006EA6FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499051A82A2ADAB6006EA6FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499051AF2A2ADAB6006EA6FD;
+			remoteInfo = Wiper;
+		};
+		499051D12A2ADAB7006EA6FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499051A82A2ADAB6006EA6FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499051AF2A2ADAB6006EA6FD;
+			remoteInfo = Wiper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		499051B02A2ADAB6006EA6FD /* Wiper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wiper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		499051B32A2ADAB6006EA6FD /* WiperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiperApp.swift; sourceTree = "<group>"; };
+		499051B52A2ADAB6006EA6FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		499051B72A2ADAB7006EA6FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		499051BA2A2ADAB7006EA6FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		499051BC2A2ADAB7006EA6FD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		499051BF2A2ADAB7006EA6FD /* Wiper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wiper.xcdatamodel; sourceTree = "<group>"; };
+		499051C12A2ADAB7006EA6FD /* Wiper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wiper.entitlements; sourceTree = "<group>"; };
+		499051C62A2ADAB7006EA6FD /* WiperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		499051CA2A2ADAB7006EA6FD /* WiperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiperTests.swift; sourceTree = "<group>"; };
+		499051D02A2ADAB7006EA6FD /* WiperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		499051D42A2ADAB7006EA6FD /* WiperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiperUITests.swift; sourceTree = "<group>"; };
+		499051D62A2ADAB7006EA6FD /* WiperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		499051AD2A2ADAB6006EA6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499051C32A2ADAB7006EA6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499051CD2A2ADAB7006EA6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		499051A72A2ADAB6006EA6FD = {
+			isa = PBXGroup;
+			children = (
+				499051B22A2ADAB6006EA6FD /* Wiper */,
+				499051C92A2ADAB7006EA6FD /* WiperTests */,
+				499051D32A2ADAB7006EA6FD /* WiperUITests */,
+				499051B12A2ADAB6006EA6FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		499051B12A2ADAB6006EA6FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				499051B02A2ADAB6006EA6FD /* Wiper.app */,
+				499051C62A2ADAB7006EA6FD /* WiperTests.xctest */,
+				499051D02A2ADAB7006EA6FD /* WiperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		499051B22A2ADAB6006EA6FD /* Wiper */ = {
+			isa = PBXGroup;
+			children = (
+				499051B32A2ADAB6006EA6FD /* WiperApp.swift */,
+				499051B52A2ADAB6006EA6FD /* ContentView.swift */,
+				499051B72A2ADAB7006EA6FD /* Assets.xcassets */,
+				499051BC2A2ADAB7006EA6FD /* Persistence.swift */,
+				499051C12A2ADAB7006EA6FD /* Wiper.entitlements */,
+				499051BE2A2ADAB7006EA6FD /* Wiper.xcdatamodeld */,
+				499051B92A2ADAB7006EA6FD /* Preview Content */,
+			);
+			path = Wiper;
+			sourceTree = "<group>";
+		};
+		499051B92A2ADAB7006EA6FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				499051BA2A2ADAB7006EA6FD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		499051C92A2ADAB7006EA6FD /* WiperTests */ = {
+			isa = PBXGroup;
+			children = (
+				499051CA2A2ADAB7006EA6FD /* WiperTests.swift */,
+			);
+			path = WiperTests;
+			sourceTree = "<group>";
+		};
+		499051D32A2ADAB7006EA6FD /* WiperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				499051D42A2ADAB7006EA6FD /* WiperUITests.swift */,
+				499051D62A2ADAB7006EA6FD /* WiperUITestsLaunchTests.swift */,
+			);
+			path = WiperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		499051AF2A2ADAB6006EA6FD /* Wiper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499051DA2A2ADAB7006EA6FD /* Build configuration list for PBXNativeTarget "Wiper" */;
+			buildPhases = (
+				499051AC2A2ADAB6006EA6FD /* Sources */,
+				499051AD2A2ADAB6006EA6FD /* Frameworks */,
+				499051AE2A2ADAB6006EA6FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wiper;
+			productName = Wiper;
+			productReference = 499051B02A2ADAB6006EA6FD /* Wiper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		499051C52A2ADAB7006EA6FD /* WiperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499051DD2A2ADAB7006EA6FD /* Build configuration list for PBXNativeTarget "WiperTests" */;
+			buildPhases = (
+				499051C22A2ADAB7006EA6FD /* Sources */,
+				499051C32A2ADAB7006EA6FD /* Frameworks */,
+				499051C42A2ADAB7006EA6FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499051C82A2ADAB7006EA6FD /* PBXTargetDependency */,
+			);
+			name = WiperTests;
+			productName = WiperTests;
+			productReference = 499051C62A2ADAB7006EA6FD /* WiperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		499051CF2A2ADAB7006EA6FD /* WiperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499051E02A2ADAB7006EA6FD /* Build configuration list for PBXNativeTarget "WiperUITests" */;
+			buildPhases = (
+				499051CC2A2ADAB7006EA6FD /* Sources */,
+				499051CD2A2ADAB7006EA6FD /* Frameworks */,
+				499051CE2A2ADAB7006EA6FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499051D22A2ADAB7006EA6FD /* PBXTargetDependency */,
+			);
+			name = WiperUITests;
+			productName = WiperUITests;
+			productReference = 499051D02A2ADAB7006EA6FD /* WiperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		499051A82A2ADAB6006EA6FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					499051AF2A2ADAB6006EA6FD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					499051C52A2ADAB7006EA6FD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 499051AF2A2ADAB6006EA6FD;
+					};
+					499051CF2A2ADAB7006EA6FD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 499051AF2A2ADAB6006EA6FD;
+					};
+				};
+			};
+			buildConfigurationList = 499051AB2A2ADAB6006EA6FD /* Build configuration list for PBXProject "Wiper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 499051A72A2ADAB6006EA6FD;
+			productRefGroup = 499051B12A2ADAB6006EA6FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				499051AF2A2ADAB6006EA6FD /* Wiper */,
+				499051C52A2ADAB7006EA6FD /* WiperTests */,
+				499051CF2A2ADAB7006EA6FD /* WiperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		499051AE2A2ADAB6006EA6FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499051BB2A2ADAB7006EA6FD /* Preview Assets.xcassets in Resources */,
+				499051B82A2ADAB7006EA6FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499051C42A2ADAB7006EA6FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499051CE2A2ADAB7006EA6FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		499051AC2A2ADAB6006EA6FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499051BD2A2ADAB7006EA6FD /* Persistence.swift in Sources */,
+				499051C02A2ADAB7006EA6FD /* Wiper.xcdatamodeld in Sources */,
+				499051B62A2ADAB6006EA6FD /* ContentView.swift in Sources */,
+				499051B42A2ADAB6006EA6FD /* WiperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499051C22A2ADAB7006EA6FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499051CB2A2ADAB7006EA6FD /* WiperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499051CC2A2ADAB7006EA6FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499051D72A2ADAB7006EA6FD /* WiperUITestsLaunchTests.swift in Sources */,
+				499051D52A2ADAB7006EA6FD /* WiperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		499051C82A2ADAB7006EA6FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499051AF2A2ADAB6006EA6FD /* Wiper */;
+			targetProxy = 499051C72A2ADAB7006EA6FD /* PBXContainerItemProxy */;
+		};
+		499051D22A2ADAB7006EA6FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499051AF2A2ADAB6006EA6FD /* Wiper */;
+			targetProxy = 499051D12A2ADAB7006EA6FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		499051D82A2ADAB7006EA6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		499051D92A2ADAB7006EA6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		499051DB2A2ADAB7006EA6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Wiper/Wiper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wiper/Preview Content\"";
+				DEVELOPMENT_TEAM = 2J67DD4W6M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.degreat.Wiper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		499051DC2A2ADAB7006EA6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Wiper/Wiper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wiper/Preview Content\"";
+				DEVELOPMENT_TEAM = 2J67DD4W6M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.degreat.Wiper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		499051DE2A2ADAB7006EA6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2J67DD4W6M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.degreat.WiperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wiper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wiper";
+			};
+			name = Debug;
+		};
+		499051DF2A2ADAB7006EA6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2J67DD4W6M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.degreat.WiperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wiper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wiper";
+			};
+			name = Release;
+		};
+		499051E12A2ADAB7006EA6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2J67DD4W6M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.degreat.WiperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Wiper;
+			};
+			name = Debug;
+		};
+		499051E22A2ADAB7006EA6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2J67DD4W6M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.degreat.WiperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Wiper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499051AB2A2ADAB6006EA6FD /* Build configuration list for PBXProject "Wiper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499051D82A2ADAB7006EA6FD /* Debug */,
+				499051D92A2ADAB7006EA6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499051DA2A2ADAB7006EA6FD /* Build configuration list for PBXNativeTarget "Wiper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499051DB2A2ADAB7006EA6FD /* Debug */,
+				499051DC2A2ADAB7006EA6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499051DD2A2ADAB7006EA6FD /* Build configuration list for PBXNativeTarget "WiperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499051DE2A2ADAB7006EA6FD /* Debug */,
+				499051DF2A2ADAB7006EA6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499051E02A2ADAB7006EA6FD /* Build configuration list for PBXNativeTarget "WiperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499051E12A2ADAB7006EA6FD /* Debug */,
+				499051E22A2ADAB7006EA6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		499051BE2A2ADAB7006EA6FD /* Wiper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				499051BF2A2ADAB7006EA6FD /* Wiper.xcdatamodel */,
+			);
+			currentVersion = 499051BF2A2ADAB7006EA6FD /* Wiper.xcdatamodel */;
+			path = Wiper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 499051A82A2ADAB6006EA6FD /* Project object */;
+}
